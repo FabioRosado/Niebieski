@@ -1,0 +1,52 @@
+/**
+ * Site header
+ */
+.nav, .navbar {
+    border-bottom: 1px solid $grey-color-light;
+    min-height: $spacing-unit * 1.865;
+    -webkit-box-shadow: 0px 10px 17px 8px rgba(245,245,245,1);
+    -moz-box-shadow: 0px 10px 17px 8px rgba(245,245,245,1);
+    box-shadow: 0px 10px 17px 8px rgba(245,245,245,1);
+    position: relative;
+    min-height: $spacing-unit * 1.865;
+}
+
+
+/**
+ * Site footer
+ */
+.footer {
+    background-color: $brand-color;
+    color: $background-color;
+}
+
+.bottom-footer {
+    background-color: $brand-color-dark;
+}
+
+.footer-title {
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px #02547bb3;
+}
+
+.footer-link {
+    list-style: none;
+    margin-left: 0;
+
+    a {
+        color: $background-color;
+    }
+}
+
+
+/**
+ * Page content
+ */
+
+
+
+
+/**
+ * Posts
+ */
+
