@@ -41,6 +41,15 @@
     a {
         color: $background-color;
     }
+    a:hover {
+        color: darken($brand-color, 30%);
+        text-decoration: none;
+    }
+}
+
+.footer-item {
+    display:inline-block;
+    margin-right: 10px;
 }
 
 

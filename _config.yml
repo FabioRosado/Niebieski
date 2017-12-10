@@ -22,7 +22,10 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Social Media usernames
+# Footer Contact Area
+footer_text: Please feel free to contact me, I'm always happy to chat!
+
+# Social Media Usernames
 github_username:  FabioRosado
 facebook_username: FabioRosado
 medium_username: FabioRosado_
@@ -34,7 +37,7 @@ disqus_username: FabioRosado
 # Google Analytics
 google_analytics:
 
-# Build settings
+# Build Settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
