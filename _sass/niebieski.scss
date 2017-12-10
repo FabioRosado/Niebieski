@@ -11,17 +11,24 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $text-color:       #383838 !default;
-$background-color: #fdfdfd !default;
+$background-color: #FDFDFD !default;
 $brand-color:      #45C3FF !default;
 $brand-color-light: lighten($brand-color, 20%) !default;
 $brand-color-dark: darken($brand-color, 30%);
 
-$grey-color:       #5d7682 !default;
+$grey-color:       #5D7682 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
-$red-color:       #F20000 !default;
+$red-color:       #ed2f32 !default;
 
+// Social Media Colors
+$facebook-color:        #4466FF !default;
+$twitter-color:         #44C4FF !default;
+$github-color:          #23242B !default;
+$instagram-color:       #FF4492 !default;
+$medium-color:          #44FFAE !default;
+$linkedin-color:        #3752CC !default;
 
 
 // Import partials.
