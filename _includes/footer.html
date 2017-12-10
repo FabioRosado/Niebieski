@@ -1,10 +1,10 @@
-<footer class="footer navbar-fixed-bottom navbar-inverse">
+<footer class="footer navbar-fixed-bottom">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2">
-                <img class="footer-title" src="{{site.url}}/assets/images/FR.svg" width="100" height="100" alt="FabioRosado">
+                <img class="footer-logo" src="{{site.url}}/assets/images/logo.svg" width="100" height="100" alt="{{ site.title }}">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h5 class="footer-title">Pages</h5>
                  <ul class="footer-link">
                      <li><a href="{{ site.url }}">Home</a></li>
@@ -15,7 +15,7 @@
                     {% endfor %}
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h5 class="footer-title">Latest Posts</h5>
                 <ul class="footer-link">
                     {% for link in site.posts limit:4 %}
@@ -65,11 +65,14 @@
             </div>
         </div>
         <div class="row bottom-footer">
-            <div class="col-sm-6">
+            <div class="col-sm-6 d-none d-md-block footer-link">
                 Made with <i class="fa fa-heart"></i> using <a href="http://jekyllrb.com/">Jekyll</a>
             </div>
-            <div class="col-sm-6" align="right">
-                <i class="fa fa-code"></i> on <a href="https://github.com/fabiorosado/fabiorosado.github.io/">Github </a> &nbsp;<i class="fa fa-github-alt"></i>
+            <div class="col-sm-6 d-none d-md-block footer-link" align="right">
+                <a href="https://github.com/fabiorosado/fabiorosado.github.io/"><i class="fa fa-code"></i> on Github &nbsp;<i class="fa fa-github-alt"></i></a>
+            </div>
+            <div class="d-sm-none footer-link">
+                &emsp; Made with <i class="fa fa-heart"></i> using <a href="http://jekyllrb.com/">Jekyll </a> &emsp; <a href="https://github.com/fabiorosado/fabiorosado.github.io/"><i class="fa fa-code"></i> on Github &nbsp;<i class="fa fa-github-alt"></i></a>
             </div>
         </div>
     </div>

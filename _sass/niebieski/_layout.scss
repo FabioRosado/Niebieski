@@ -21,12 +21,12 @@
  * Site footer
  */
 .footer {
-    background-color: $brand-color;
+    background-color: $brand-color-dark;
     color: $background-color;
 }
 
 .bottom-footer {
-    background-color: $brand-color-dark;
+    background-color: darken($brand-color-dark, 10%);
 }
 
 .footer-title {
@@ -42,14 +42,18 @@
         color: $background-color;
     }
     a:hover {
-        color: darken($brand-color, 30%);
+        color: $brand-color;
         text-decoration: none;
     }
 }
 
+.footer-logo {
+    margin-top: 40px;
+}
+
 .footer-item {
     display:inline-block;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
