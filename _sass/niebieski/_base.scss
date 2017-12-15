@@ -25,6 +25,18 @@ body {
   font-kerning: normal;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font;
+}
+
+.white-text {
+  color: $background-color;
+}
+
+.header {
+  margin-bottom: $padding-unit;
+  text-shadow: 1px 1px 1px #02547bb3;
+}
 
 
 /**

@@ -7,6 +7,7 @@ $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
+$heading-font: 'Source Sans Pro', sans-serif !default;
 
 $spacing-unit:     30px !default;
 $padding-unit:     1.5rem !default;
@@ -20,6 +21,10 @@ $brand-color-dark:  darken($brand-color, 35%) !default;
 $secondary-brand-color:       #c4ff44 !default;
 $secondary-brand-color-dark:    darken($secondary-brand-color, 15%) !default;
 $secondary-brand-color-light:   lighten($secondary-brand-color, 10%) !default;
+
+$sec-brand-color:       #FE13B3 !default;
+$sec-brand-color-dark:    darken($sec-brand-color, 10%)  !default;
+$sec-brand-color-light:   lighten($sec-brand-color, 10%) !default;
 
 $grey-color:       #5D7682 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

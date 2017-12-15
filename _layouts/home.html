@@ -50,23 +50,38 @@ layout: default
 
 <!-- Projects Area -->
 <div class="container-fluid brandcolor-bg">
-  <div class="row">
-    {% for project in site.categories.Projects %}  
-      <div class="col-md-6 col-sm-12">
-        <div class="card-image" style="background-image: url({{site.url}}/assets/images/{{project.image}});">
-          <div class="project-text text-center">
-              <h5 class="project-tag"> {{ project.tag-icon }} {{ project.tag }}</h5>
-              <h3 class="card-title"> {{ project.title }}</h3>
-              <p>{{ project.excerpt }}</p>
-              <a class="btn btn-brand" href="{{ project.url }}" role="button"> Read More</a>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row header">
+      <div class="col-sm-6 offset-sm-3 text-center">
+        <h1 class="white-text">PROJECTS</h1>
       </div>
-    {% endfor %}  
-    
+    </div>
+      <div class="row">
+        {% for project in site.categories.Projects %}  
+        <div class="col-md-6 col-sm-12">
+            <div class="card-image" style="background-image: url({{site.url}}/assets/images/{{project.image}});">
+            <div class="project-text text-center">
+                <h5 class="project-tag"> {{ project.tag-icon }} {{ project.tag }}</h5>
+                <h3 class="card-title"> {{ project.title }}</h3>
+                <p>{{ project.excerpt }}</p>
+                <a class="btn btn-brand" href="{{ project.url }}" role="button"> Read More</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+                <div class="card-image" style="background-image: url({{site.url}}/assets/images/{{project.image}});">
+                <div class="project-text text-center">
+                    <h5 class="project-tag-pink"> {{ project.tag-icon }} {{ project.tag }}</h5>
+                    <h3 class="card-title"> {{ project.title }}</h3>
+                    <p>{{ project.excerpt }}</p>
+                    <a class="btn btn-pink" href="{{ project.url }}" role="button"> Read More</a>
+                </div>
+                </div>
+            </div>
+        {% endfor %}  
+    </div>
   </div>
 </div>
-
   <h1 class="page-heading">Posts</h1>
   
   <ul class="post-list">

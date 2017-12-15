@@ -78,10 +78,8 @@
 .brandcolor-bg {
     background-color: $brand-color;
     margin-top: $spacing-unit * 3;
-    padding-top: $spacing-unit * 1.5;
-    padding-bottom: $spacing-unit * 1.5;
-    padding-left: $spacing-unit * 3;
-    padding-right: $spacing-unit * 3
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
 }
 
 .btn-brand {
@@ -105,6 +103,37 @@
 }
 
 
+.btn-pink {
+    color: $background-color !important;
+    background-color: $sec-brand-color;
+    border-color: $sec-brand-color;
+    margin-bottom: $padding-unit;
+    a {
+        color: $background-color;
+    }
+
+    &:hover {
+        background-color: $sec-brand-color-dark;
+        border-color:     $sec-brand-color-dark;
+        color: $background-color !important;
+        text-decoration: none;
+    }
+    &:focus {
+        color: $background-color;
+    }
+
+}
+
+.project-tag-pink {
+    color: $sec-brand-color;
+    padding-top: $padding-unit;
+}
+
+.project-icon-pink {
+    color: $sec-brand-color;
+}
+
+
 /**
 * Projects
 */
@@ -114,6 +143,7 @@
     width: 100%;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
     border-radius: 3px;
+    margin-bottom: $padding-unit * 1.2;
 }
 
 .project-tag {
