@@ -9,18 +9,25 @@ $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
+$padding-unit:     1.5rem !default;
 
 $text-color:       #383838 !default;
 $background-color: #FDFDFD !default;
 $brand-color:      #45C3FF !default;
 $brand-color-light: lighten($brand-color, 20%) !default;
-$brand-color-dark: darken($brand-color, 35%);
+$brand-color-dark:  darken($brand-color, 35%) !default;
+
+$secondary-brand-color:       #c4ff44 !default;
+$secondary-brand-color-dark:    darken($secondary-brand-color, 15%) !default;
+$secondary-brand-color-light:   lighten($secondary-brand-color, 10%) !default;
 
 $grey-color:       #5D7682 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $red-color:       #ed2f32 !default;
+
+$pic-overlay:     rgba(36, 46, 51, 0.55) !default;
 
 // Social Media Colors
 $facebook-color:        #4f76cc !default;

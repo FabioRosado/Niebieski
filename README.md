@@ -30,6 +30,15 @@ Or install it yourself as:
 
 TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
 
+## Resources 
+
+This time was created with the following resources:
+- Bootstrap 4
+- Font Awesome Icons
+- <a href="https://www.freepik.com/free-photos-vectors/business">Business vector created by Freepik</a>
+
+
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.

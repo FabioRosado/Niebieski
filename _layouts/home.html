@@ -2,9 +2,70 @@
 layout: default
 ---
 
-<div class="home">
+<!-- Profile Area -->
 
-  {{ content }}
+<div class="content-start">
+  <div class="col-sm-6 offset-sm-3 text-center">
+    <img src="{{ site.url}}/assets/images/profile_pic.png" alt="{{ site.title }}" class="rounded-circle">
+    <h1 class="title"> {{ site.title }}</h1>
+    <h4 class="text-muted"> {{ site.description }}</h4>
+  </div>    
+  <div class="col-sm-6 offset-sm-3 text-center">
+    <ul class="social-link">
+          {% if site.github_username %}
+              <li class="social-media">
+                  <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i></a>
+              </li>
+          {% endif %}
+          {% if site.twitter_username %}
+              <li class="social-media">
+                  <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
+              </li>
+          {% endif %}
+          {% if site.medium_username %}
+              <li class="social-media">
+                  <a href="https://medium.com/@{{ site.medium_username }}"><i class="fa fa-medium"></i></a>
+              </li>
+          {% endif %}
+          {% if site.facebook_username %}
+              <li class="social-media">
+                  <a href="https://www.facebook.com/ {{ site.facebook_username }}"><i class="fa fa-facebook"></i></a>
+              </li>
+              {% endif %}
+          {% if site.instagram_username %}
+              <li class="social-media">
+                  <a href="https://www.instagram.com/{{ site.instagram_username }}"><i class="fa fa-instagram"></i></a>
+              </li>
+          {% endif %}
+          {% if site.linkedin_username %}
+              <li class="social-media">
+                  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin"></i></a>
+              </li>
+          {% endif %}
+    </ul>
+  </div>
+</div>
+
+
+
+<!-- Projects Area -->
+<div class="container-fluid brandcolor-bg">
+  <div class="row">
+    {% for project in site.categories.Projects %}  
+      <div class="col-md-6 col-sm-12">
+        <div class="card-image" style="background-image: url({{site.url}}/assets/images/{{project.image}});">
+          <div class="project-text text-center">
+              <h5 class="project-tag"> {{ project.tag-icon }} {{ project.tag }}</h5>
+              <h3 class="card-title"> {{ project.title }}</h3>
+              <p>{{ project.excerpt }}</p>
+              <a class="btn btn-brand" href="{{ project.url }}" role="button"> Read More</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}  
+    
+  </div>
+</div>
 
   <h1 class="page-heading">Posts</h1>
   
@@ -22,5 +83,4 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
 </div>

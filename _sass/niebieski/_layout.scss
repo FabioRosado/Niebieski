@@ -51,19 +51,87 @@
     margin-top: 40px;
 }
 
-.footer-item {
-    display:inline-block;
-    margin-left: 10px;
-}
 
 
 /**
  * Page content
  */
+.title {
+   color: $brand-color;
+   text-shadow: 1px 1px 1px $brand-color-dark;
+}
+
+.content-start {
+    margin-top: $spacing-unit * 2;
+}
+
+.social-media {
+    display:inline-block;
+    margin-left: 10px;
+}
+
+.social-link {
+    list-style: none;
+    margin-left: 0px;
+}
+
+.brandcolor-bg {
+    background-color: $brand-color;
+    margin-top: $spacing-unit * 3;
+    padding-top: $spacing-unit * 1.5;
+    padding-bottom: $spacing-unit * 1.5;
+    padding-left: $spacing-unit * 3;
+    padding-right: $spacing-unit * 3
+}
+
+.btn-brand {
+    color: $brand-color !important;
+    background-color: $secondary-brand-color;
+    border-color: $secondary-brand-color;
+    margin-bottom: $padding-unit;
+    a {
+        color: $background-color;
+    }
+
+    &:hover {
+        background-color: $secondary-brand-color-light;
+        color: $brand-color-dark !important;
+        text-decoration: none;
+    }
+    &:focus {
+        color: $background-color;
+    }
+
+}
 
 
+/**
+* Projects
+*/
+.card-image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    border-radius: 3px;
+}
 
+.project-tag {
+    color: $secondary-brand-color;
+    padding-top: $padding-unit;
+}
 
+.project-icon {
+    color: $secondary-brand-color;
+}
+
+.project-text {
+    color: $background-color;
+    background-color: $pic-overlay;
+    border-radius: 3px;
+    padding-left: $padding-unit * 2;
+    padding-right: $padding-unit * 2;
+}
 /**
  * Posts
  */
