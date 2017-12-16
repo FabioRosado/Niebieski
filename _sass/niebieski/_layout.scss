@@ -31,7 +31,6 @@
 
 .footer-title {
     margin-top: 20px;
-    text-shadow: 1px 1px 1px #02547bb3;
 }
 
 .footer-link {
@@ -58,7 +57,6 @@
  */
 .title {
    color: $brand-color;
-   text-shadow: 1px 1px 1px $brand-color-dark;
 }
 
 .content-start {
@@ -80,6 +78,7 @@
     margin-top: $spacing-unit * 3;
     padding-top: $spacing-unit;
     padding-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 2;
 }
 
 .btn-brand {
@@ -87,7 +86,7 @@
     background-color: $brand-color;
     border-color: darken($brand-color, 10%);
     margin-bottom: $padding-unit;
-    text-shadow: 1px 1px 1px $brand-color-dark;
+    
     a {
         color: $background-color;
     }

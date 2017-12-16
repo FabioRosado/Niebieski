@@ -5,7 +5,7 @@
                 <img class="footer-logo" src="{{site.url}}/assets/images/logo.svg" width="100" height="100" alt="{{ site.title }}">
             </div>
             <div class="col-sm-3">
-                <h5 class="footer-title">Pages</h5>
+                <h5 class="footer-title drop-shadow">Pages</h5>
                  <ul class="footer-link">
                      <li><a href="{{ site.url }}">Home</a></li>
                     {% for link in site.pages | limit:5 %}
@@ -16,7 +16,7 @@
                 </ul>
             </div>
             <div class="col-sm-4">
-                <h5 class="footer-title">Latest Posts</h5>
+                <h5 class="footer-title drop-shadow">Latest Posts</h5>
                 <ul class="footer-link">
                     {% for link in site.posts limit:4 %}
                         {% if link.url contains "projects" %}
@@ -27,7 +27,7 @@
                 </ul>
             </div>
             <div class="col-sm-3">
-                <h5 class="footer-title">Contact</h5>
+                <h5 class="footer-title drop-shadow">Contact</h5>
                 <ul class="footer-link">
                     <li>{{ site.footer_text }}</li>
                     <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope" aria-hidden="true"></i> {{ site.email }}</a></li>
