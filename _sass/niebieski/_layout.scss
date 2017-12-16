@@ -83,39 +83,18 @@
 }
 
 .btn-brand {
-    color: $brand-color !important;
-    background-color: $secondary-brand-color;
-    border-color: $secondary-brand-color;
-    margin-bottom: $padding-unit;
-    a {
-        color: $background-color;
-    }
-
-    &:hover {
-        background-color: $secondary-brand-color-light;
-        color: $brand-color-dark !important;
-        text-decoration: none;
-    }
-    &:focus {
-        color: $background-color;
-    }
-
-}
-
-
-.btn-pink {
     color: $background-color !important;
-    background-color: $sec-brand-color;
-    border-color: $sec-brand-color;
+    background-color: $brand-color;
+    border-color: darken($brand-color, 10%);
     margin-bottom: $padding-unit;
+    text-shadow: 1px 1px 1px $brand-color-dark;
     a {
         color: $background-color;
     }
 
     &:hover {
-        background-color: $sec-brand-color-dark;
-        border-color:     $sec-brand-color-dark;
-        color: $background-color !important;
+        background-color: darken($brand-color, 10%);
+        color: $brand-color-light !important;
         text-decoration: none;
     }
     &:focus {
@@ -124,14 +103,6 @@
 
 }
 
-.project-tag-pink {
-    color: $sec-brand-color;
-    padding-top: $padding-unit;
-}
-
-.project-icon-pink {
-    color: $sec-brand-color;
-}
 
 
 /**
@@ -147,12 +118,14 @@
 }
 
 .project-tag {
-    color: $secondary-brand-color;
+    color: $brand-color;
     padding-top: $padding-unit;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
 }
 
 .project-icon {
-    color: $secondary-brand-color;
+    color: $brand-color;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
 }
 
 .project-text {
@@ -161,7 +134,10 @@
     border-radius: 3px;
     padding-left: $padding-unit * 2;
     padding-right: $padding-unit * 2;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
 }
+
+
 /**
  * Posts
  */
