@@ -36,7 +36,7 @@ This time was created with the following resources:
 - Bootstrap 4
 - Font Awesome Icons
 - <a href="https://www.freepik.com/free-photos-vectors/business">Business vector created by Freepik</a>
-
+- Icon Finder - [Python Icon](https://www.iconfinder.com/icons/1378016/circle_code_hovytech_media_programming_python_social_icon#size=128)
 
 
 ## Contributing

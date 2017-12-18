@@ -62,7 +62,7 @@ layout: default
             <div class="card-image" style="background-image: url({{site.url}}/assets/images/{{project.image}});">
             <div class="project-text text-center">
                 <h5 class="project-tag"> {{ project.tag-icon }} {{ project.tag }}</h5>
-                <h3 class="card-title"> {{ project.title }}</h3>
+                <h3 class="card-title white-text"> {{ project.title }}</h3>
                 <p class="project-excerpt">{{ project.excerpt | truncate:165, "...</p>" }}
                 <a class="btn btn-brand drop-shadow" href="{{ project.url }}" role="button"><i class="fa fa-folder-open" aria-hidden="true"></i> View Project</a>
             </div>
@@ -77,7 +77,27 @@ layout: default
 <div class="container">
   <div class="row header drop-shadow">
     <div class="col-sm-6 offset-sm-3 text-center">
-      <h1 class="brand-text">Blog Posts</h1>
+      <h1 class="brand-text"> Blog Posts</h1>
+        <div class="row">
+          {% for post in site.posts %}
+            {% if post.url contains site.category_one %}
+              {% assign category_icon=site.category_one_icon %}
+            {% elsif post.url contains site.category_two %}
+              {% assign category_icon = site.category_two_icon %}
+            {% elsif post.url contains site.category_three %}
+              {% assign url = site.category_three_icon %}
+            {% elsif post.url contains site.category_four %}
+              {% assign category_icon = site.category_four_icon %}
+            {% else %}
+              {% assign category_icon=site.default_icon %}
+            {% endif %}
+              <div class="col-md-6 col-sm-12">
+                <h1> {{ post.title }} </h1> 
+                <h3>{{ category_icon }} {{ post.categories }}</h2>
+                  {{ post.categories == category_one }}
+              </div>
+          {% endfor %}
+        </div>
     </div>
   </div>
 </div>

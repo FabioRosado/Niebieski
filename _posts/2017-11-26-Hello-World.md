@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World"
 date:   2017-11-25 11:04:12 +0000
-categories: hello
+categories: Code
 ---
 
 ```python
