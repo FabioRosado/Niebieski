@@ -141,3 +141,10 @@
  * Posts
  */
 
+.recent-posts {
+    margin-bottom: $spacing-unit;
+    img:hover {
+        opacity:0.9 !important;
+    }
+
+}

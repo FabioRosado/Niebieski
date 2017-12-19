@@ -32,7 +32,7 @@ TODO: Write usage instructions here. Describe your available layouts, includes, 
 
 ## Resources 
 
-This time was created with the following resources:
+This theme was created with the following resources:
 - Bootstrap 4
 - Font Awesome Icons
 - <a href="https://www.freepik.com/free-photos-vectors/business">Business vector created by Freepik</a>
