@@ -149,3 +149,26 @@
     }
 
 }
+
+.post-header {
+    z-index: 3 !important;
+    margin-top: -4rem;
+    border-radius: 4px;
+    padding-top: $padding-unit;
+    margin-left: -2%;
+    margin-right: -2%;
+    background:  $background-color;
+    position: relative;
+    margin-bottom: $spacing-unit * 2;
+
+    .fa {
+        color: $brand-color;
+    }
+}
+
+.narrow {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}

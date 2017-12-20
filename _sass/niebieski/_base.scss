@@ -50,6 +50,11 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px 1px #02547bb3;
 }
 
+hr {
+  margin-top: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
+}
+
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

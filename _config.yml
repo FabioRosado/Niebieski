@@ -16,6 +16,7 @@
 title: Niebieski
 email: your-email@example.com
 description: A minimal site
+author: FabioRosado
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 

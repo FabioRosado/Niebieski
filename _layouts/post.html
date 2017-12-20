@@ -2,4 +2,42 @@
 layout: default
 ---
 
-{{ content }}
+<div class="img-fluid">
+  <img src="{{ site.url }}/assets/images/{{ page.image }}" alt="{{ page.title }}" style="z-index: 0; height: 500px; width: 100%; display: block; padding-top: 20px;">
+</div>
+
+<div class="container">
+  <div class="post-header text-center">
+    <h1 class="drop-shadow">{{ page.title }}</h1>
+    <h3 class="text-muted"> {{page.subtitle}}</h3>
+    <p class="text-muted">
+      {% assign date_format = site.minima.date_format | default: "%A, %-d %b %Y" %}
+      <i class="fa fa-clock-o" aria-hidden="true"></i> &nbsp;{{ page.date | date: date_format }} &emsp;
+      <i class="fa fa-user-o" aria-hidden="true"></i> {{site.author}} &emsp;
+      <i class="fa fa-folder-o" aria-hidden="true"></i> &nbsp;{{ page.categories }}
+    </p>
+  </div>
+  
+  <div class="narrow">
+    {{ content }}
+
+    <div class="social">
+      <hr>
+        <div class="sharethis-inline-share-buttons"></div>
+      <hr>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          function disqus_config() { this.experiment.enable_scroll_container = true; }
+          var disqus_shortname = "{{ site.disqus_username }}"; // required: replace example with your forum shortname
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </div>    
+  </div>
+</div>
