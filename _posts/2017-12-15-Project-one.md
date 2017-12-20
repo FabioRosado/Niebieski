@@ -10,7 +10,7 @@ image: domenico-loia-272251.jpg
 This is an example of an amazing project that you created.The cool picture was taken by Domenico Loia on Upsplash. Open this example to see more information on how to set up your own Projects posts.
 
 
-## Front Matter
+# Front Matter
 
 **Categories:** In order for a post to be marked as a Project its category needs to be Projects(Case sensitive).
 
