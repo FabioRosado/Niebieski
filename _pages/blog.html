@@ -4,4 +4,29 @@ title: Blog
 permalink: /blog/
 ---
 
-blog page
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-sm-6 offset-sm-3 text-center">
+            <h1 class="drop-shadow">Blog</h1>
+        </div>      
+    </div>
+        <div class="row brandcolor-bg">
+            {% for post in site.tags.Featured limit:3 %}
+                <div class="col-sm-4 pad-top opacity">
+                  <a href="{{post.url}}">
+                    <div class="card-image overlay text-center" style="background-image: url({{site.url}}/assets/images/{{post.image}});">
+                        <div class="project-text">
+                            <h5 class="pad-top">{{ post.category_icon }} {{ post.categories[0] }}</h6>
+                            <h1 class="white-text drop-shadow">{{ post.title }}</h1>
+                              <div class="white-text pad-bottom pad-left pad-right">
+                                  {{post.excerpt | truncate:165}}
+                              </div>  
+                        </div>
+                    </div>
+                  </a>  
+                </div>
+              {% endfor %} 
+        </div>
+</div>    
+
+

@@ -60,10 +60,10 @@ layout: default
         {% for project in site.categories.Projects %}  
         <div class="col-md-6 col-sm-12">
             <div class="card-image" style="background-image: url({{site.url}}/assets/images/{{project.image}});">
-            <div class="project-text text-center">
+            <div class="project-text text-center pad-left pad-right">
                 <h5 class="project-tag"> {{ project.tag-icon }} {{ project.tag }}</h5>
                 <h3 class="card-title white-text"> {{ project.title }}</h3>
-                <p class="project-excerpt">{{ project.excerpt | truncate:165, "...</p>" }}
+                <p class="project-excerpt">{{ project.excerpt | truncate:165 }}</p>
                 <a class="btn btn-brand drop-shadow" href="{{ project.url }}" role="button"><i class="fa fa-folder-open" aria-hidden="true"></i> View Project</a>
             </div>
             </div>
@@ -106,7 +106,7 @@ layout: default
           <a href="{{post.url}}"><img class="img-fluid" src="{{site.url}}/assets/images/{{post.image}}" alt={{post.title | escape}}></a>
           <h6 class="spaced">{{ category_icon }} {{ post.categories }} </h6>
           <h2 class="dark-text"> {{ post.title }} </h2>
-          <p>{{ post.excerpt | truncate:150}}</p>
+          <p>{{ post.excerpt | truncate:165}}</p>
           <a class="btn btn-brand drop-shadow" href="{{ post.url }}" role="button"> Read More</a>  
         </div>
       {% endif %}

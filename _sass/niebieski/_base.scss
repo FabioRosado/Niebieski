@@ -31,11 +31,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .white-text {
-  color: $background-color;
+  color: $background-color !important;
 }
 
 .dark-text {
-  color: black;
+  color: $text-color;
 }
 
 .brand-color {
@@ -51,10 +51,27 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px 1px #02547bb3;
 }
 
-hr {
-  margin-top: $spacing-unit / 2;
-  margin-bottom: $spacing-unit / 2;
+.overlay {
+  background-color: $pic-overlay;
+
 }
+
+.pad-top {
+  padding-top: $spacing-unit;
+}
+
+.pad-bottom {
+  padding-bottom: $spacing-unit;
+}
+
+.pad-left {
+  padding-left: $spacing-unit;
+}
+
+.pad-right {
+  padding-right: $spacing-unit;
+}
+
 
 
 /**
@@ -64,7 +81,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 1.5;
 }
 
 
@@ -75,6 +92,15 @@ ul, ol, dl, figure,
 img {
   max-width: 100%;
   vertical-align: middle;
+}
+
+.bg
+{
+  width: 100% !important;
+  height: 400px; 
+  width: 100%; 
+  display: block; 
+  padding-top: 20px;
 }
 
 
