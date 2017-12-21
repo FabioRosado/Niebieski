@@ -20,7 +20,7 @@
                 <ul class="footer-link">
                     {% assign count_posts = 0 %}
                     {% for link in site.posts%}
-                        {% if count_posts > 4 %}
+                        {% if count_posts >= 4 %}
                             {% break %}
                         {% elsif link.url contains "projects" %}
                         {% else %}
