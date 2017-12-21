@@ -27,6 +27,50 @@ permalink: /blog/
                 </div>
               {% endfor %} 
         </div>
-</div>    
+</div>
+
+<div class="container">
+  {% for post in site.posts %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if post.url contains 'projects' or post.tags contains 'Featured' %}
+    {% elsif mod == 0 %}
+    <div class="row pad-bottom">
+        <div class="col-md-8 d-none d-md-block">
+            <h2 class="drop-shadow">{{post.title}} </br> <span class="text-muted">{{post.subtitle}}</span></h2>
+            <p>{{ post.excerpt }}</p>
+            <a class="btn btn-brand drop-shadow" href="{{ post.url }}" role="button"> Read More</a> 
+        </div>
+        <div class="col-md-4">
+          <a href="{{post.url}}">
+            <img class="standout img-fluid opacity" src="{{site.url}}/assets/images/{{post.image}}">
+          </a>
+        </div>
+        <!-- Puts text under image on small screens -->
+        <div class="col-xs-8 d-block d-md-none">
+            <h2 class="drop-shadow">{{post.title}} </br> <span class="text-muted">{{post.subtitle}}</span></h2>
+            <p>{{ post.excerpt }}</p>
+            <a class="btn btn-brand drop-shadow" href="{{ post.url }}" role="button"> Read More</a> 
+        </div>
+      </div>
+      <hr class="spaced pad-bottom">
+
+    {% else %}
+    <div class="row pad-bottom">
+    <div class="col-md-4">
+      <a href="{{post.url}}">
+        <img class="standout img-fluid opacity" src="{{site.url}}/assets/images/{{post.image}}">
+      </a>
+    </div>
+    <div class="col-md-6">
+        <h2 class="drop-shadow">{{post.title}} </br> <span class="text-muted">{{post.subtitle}}</span></h2>
+        <p>{{ post.excerpt }}</p>
+        <a class="btn btn-brand drop-shadow" href="{{ post.url }}" role="button"> Read More</a> 
+    </div>
+  </div>
+  <hr class="spaced pad-bottom">
+    {% endif %}
+  {% endfor %}
+
+</div>
 
 

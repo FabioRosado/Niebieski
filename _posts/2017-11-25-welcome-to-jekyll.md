@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 subtitle: Check out all the code styling
 date:   2017-11-25 11:04:12 +0000
 categories: python
+category_icon: <i class="fa fa-code" aria-hidden="true"></i>
 image: kevin-392517.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
