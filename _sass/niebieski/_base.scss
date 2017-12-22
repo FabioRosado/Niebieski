@@ -115,16 +115,10 @@ img {
 
 
 
-
-
-/**
- * Figures
- */
-
-
 /**
  * Lists
  */
+
 ul, ol {
   margin-left: $spacing-unit;
 }
@@ -136,6 +130,13 @@ li {
   }
 }
 
+.progress {
+  margin-bottom: 0.5rem;
+}
+
+.list-group {
+  margin-left: 0;
+}
 
 
 /**

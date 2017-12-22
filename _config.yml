@@ -46,6 +46,7 @@ category_three_icon: <img src=/assets/images/python.svg>
 category_four: random
 category_four_icon: <i class="fa fa-random" aria-hidden="true"></i>
 
+
 # Build Settings
 markdown: kramdown
 highlighter: rouge
