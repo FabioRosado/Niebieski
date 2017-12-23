@@ -102,17 +102,9 @@
 
 }
 
-.opacity {
-    &:hover, &:focus {
-        opacity: 0.9;
-    }
-    a:hover {
-        text-decoration: none;
-    }
+.progress-bar {
+    background-color: darken($brand-color, 10%);
 }
-
-
-
 
 
 /**

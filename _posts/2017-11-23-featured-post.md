@@ -69,7 +69,52 @@ The theme is set to show only the last 3 posts marked as featured. This would be
 
 `tags: Featured`
 
+## Code Highlighting
 
+This theme comes with a customised colour theme for the rouge highlighter. I'd recommend that you specify the language of your code when you post it otherwise rouge will just show the text in one colour.
+
+To specify the language of your code you can do it in markdown language like this:
+
+```
+```python
+<your code here>
+```
+
+**_Example:_**
+
+_This is how code will look like with this theme._
+
+```python
+from foo import bar
+
+def hello(word):
+  print("Hello %s" % word)
+  if "world" in word:
+    return True
+
+# This is a comment
+
+print(hello("world!"))
+
+class AClass:
+  def __init__(foo):
+    self.foo = foo
+
+def quick_maths:
+  if (2 + 2) - 1 == 3:
+    return True
+```
+
+## Feedback
+This was my first attempt at creating a theme from scratch. I hope you like it as much as I did create it, please do give me some feedback on it, I'd love to hear from you and improve my skills!
+
+Here's where you can find me:
+
+<a href="mailto:fabiorosado@outlook.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i> 
+<a href="https://github.com/fabiorosado"><i class="fa fa-github fa-3x"></i></a>
+<a href="https://twitter.com/fabiorosado_"><i class="fa fa-twitter fa-3x"></i></a>
+<a href="https://www.instagram.com/fabiorosado"><i class="fa fa-instagram fa-3x"></i></a>
+<a href="https://www.linkedin.com/in/fabiorosado"><i class="fa fa-linkedin fa-3x"></i></a>
 
 **Credits:** [Photo by Jantine Doornbos on Unsplash](https://unsplash.com/photos/HvYy5SEefC8)
 

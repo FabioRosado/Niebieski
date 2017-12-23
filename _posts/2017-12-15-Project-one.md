@@ -12,6 +12,8 @@ This is an example of an amazing project that you created.The cool picture was t
 
 # Front Matter
 
+**Subtitle:** If you want to provide more information about this project you can add _subtitle_ to your front matter, this line of text will be shown under the title of your project and will only be visible when someone opens the project.
+
 **Categories:** In order for a post to be marked as a Project its category needs to be Projects(Case sensitive).
 
 **Date:** I'd recommend that you set a date earlier any other blog posts. This is to prevent the links in the footer(_Latest Posts_) to be hidden and show less than 4 links - I'm simply hiding the posts if they fall into the _Projects_ category.

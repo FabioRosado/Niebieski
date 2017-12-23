@@ -1,15 +1,12 @@
 ---
 layout: post
-title:  "A Featured Post"
-subtitle: This is a featured post
-date:   2017-11-24 11:04:12 +0000
-categories: code
-category_icon: <i class="fa fa-code" aria-hidden="true"></i>
-tags: Featured
-image: jantine-doornbos-398339.jpg
+title:  "Another Post"
+date:   2017-11-28 11:04:12 +0000
+categories: random
+image: johannes-plenio-377226.jpg
 ---
 
-This is a featured post, it will show up in the featured bar located in the Blog area. Open up this post to get more information on how to set a featured post.
+This is a post. Open up this post to get more information on how to set a featured post. This posts will show up under the featured bar located in the Blog area and the latest 3 posts will appear in the _Recent Posts_ in the Home page. Open up this post to get more information on how to set a featured post.
 
 ## Title & Subtitle
 You can provide a subtitle in your front matter with the code `subtitle: <subtitle>`.  This is great if you want to provide more information about the post. The subtitle text is coloured in a grey colour.
@@ -118,5 +115,5 @@ Here's where you can find me:
 <a href="https://www.linkedin.com/in/fabiorosado"><i class="fa fa-linkedin fa-3x"></i></a>
 
 
-**Credits:** [Photo by Jantine Doornbos on Unsplash](https://unsplash.com/photos/HvYy5SEefC8)
+**Credits:**[Photo by Johannes Plenio on Unsplash](https://unsplash.com/photos/FZpCcPss9to)
 
