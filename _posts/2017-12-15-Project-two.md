@@ -25,6 +25,7 @@ _Note: The maximum number of characters is 160, anything above will be substitut
 **Image:** The image to be used on the card background and the post header. Jekyll will look in the folder _../assets/images/_ for the name specified in this field.
 
 ## Resources
+
 - Picture: [Kevin](https://unsplash.com/photos/w7ZyuGYNpRQ)
 - [FontAwesome Icons](http://fontawesome.io/)
 

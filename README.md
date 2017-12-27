@@ -30,7 +30,50 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
+You can create Projects and Featured Posts by adding specific settings in the post front matter.
+
+#### Projects
+
+To create a Project you need to add the following:
+```
+categories: Projects
+tag: < project category>
+tag-icon:
+image:
+```
+
+As you can see, any posts with the category `Projects` will be marked as a project and will be shown in the Projects area of the home page(limited to the latest 2 projects) and in the Projects page(all of the projects are shown).
+
+A tag and a tag-icon can be used as a category in a normal post. This will only be shown on the home page. The tag-icon can be any HTML code (see the [project example](_posts/2017-12-15-Project-one.md) for more info)
+
+
+#### Posts & Featured posts
+Posts and featured posts are pretty much the same, they will just be shown in a different place on the blog page.
+
+```
+categories:
+category_icon: 
+tags: 
+```
+
+The category can be any that you like but they should match the ones specified in the `_config.yml`  in order for the category icons to work without any issues.
+
+Featured posts will show their category above the title on the blog page. You can specify a different icon to be shown before the category name.
+
+In order for you to specify a featured post, all you need to do is add `tags: Featured` to the front matter.
+
+Check the [featured post example](_posts/2017-11-23-featured-post.md) for more info about posts & featured posts.
+
+#### The _config.yml file
+
+Things you can specify in the file:
+
+- Specify 4 main categories for blog posts
+- Specify 4 icons for each category (used in the recent posts area)
+- Specify social media names to appear on the site
+- Specify google analytics id
+
+In the `_config.yml` file you can specify 4 categories to use in the posts alongside with the icon of each category. This category icon is to be used on the home page in the **Recent Posts** area.
 
 ## Resources 
 
