@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="img-fluid">
-  <img src="{{ site.url }}/assets/images/{{ page.image }}" alt="{{ page.title }}" style="z-index: 0; height: 500px; width: 100%; display: block; padding-top: 20px;">
+  <img src="{{ site.url }}/assets/images/{{ page.image }}" alt="{{ page.title | escape}}" style="z-index: 0; height: 500px; width: 100%; display: block; padding-top: 20px;">
 </div>
 
 <div class="container">

@@ -6,10 +6,10 @@ categories: random
 image: johannes-plenio-377226.jpg
 ---
 
-This is a post. Open up this post to get more information on how to set a featured post. This posts will show up under the featured bar located in the Blog area and the latest 3 posts will appear in the _Recent Posts_ in the Home page. Open up this post to get more information on how to set a featured post.
+This is a post. Open up this post to get more information on how to set a post. These posts will show up under the featured bar located in the Blog area and the latest 3 posts will appear in the _Recent Posts_ in the Home page. Open up this post to get more information on how to set a featured post.
 
 ## Title & Subtitle
-You can provide a subtitle in your front matter with the code `subtitle: <subtitle>`.  This is great if you want to provide more information about the post. The subtitle text is coloured in a grey colour.
+You can provide a subtitle in your front matter with the code `subtitle: <subtitle>`.  This is great, if you want to provide more information about the post. The subtitle text is coloured in a grey colour.
 
 On the blog area, the featured posts only show the title. When the user clicks the featured post, the subtitle will be shown below the normal title in the post view.
 
@@ -69,7 +69,7 @@ The theme is set to show only the last 3 posts marked as featured. This would be
 
 ## Code Highlighting
 
-This theme comes with a customised colour theme for the rouge highlighter. I'd recommend that you specify the language of your code when you post it otherwise rouge will just show the text in one colour.
+This theme comes with a customised color theme for the rouge highlighter. I'd recommend that you specify the language of your code when you post it otherwise rougue will just show the text in one color.
 
 To specify the language of your code you can do it in markdown language like this:
 
@@ -104,7 +104,7 @@ def quick_maths:
 ```
 
 ## Feedback
-This was my first attempt at creating a theme from scratch. I hope you like it as much as I did create it, please do give me some feedback on it, I'd love to hear from you and improve my skills!
+This was my first attempt at creating a theme from scratch. I hope you like it as much as I did creating it, please do give me some feedback on it, I'd love to hear from you and improve my skills!
 
 Here's where you can find me:
 

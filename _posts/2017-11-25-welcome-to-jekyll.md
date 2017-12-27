@@ -8,10 +8,10 @@ category_icon: <i class="fa fa-code" aria-hidden="true"></i>
 image: kevin-392517.jpg
 ---
 
-This is a post. Open up this post to get more information on how to set a featured post. This posts will show up under the featured bar located in the Blog area and the latest 3 posts will appear in the _Recent Posts_ in the Home page. Open up this post to get more information on how to set a featured post.
+This is a post. Open up this post to get more information on how to set a post. These posts will show up under the featured bar located in the Blog area and the latest 3 posts will appear in the _Recent Posts_ in the Home page. Open up this post to get more information on how to set a featured post.
 
 ## Title & Subtitle
-You can provide a subtitle in your front matter with the code `subtitle: <subtitle>`.  This is great if you want to provide more information about the post. The subtitle text is coloured in a grey colour.
+You can provide a subtitle in your front matter with the code `subtitle: <subtitle>`.  This is great, if you want to provide more information about the post. The subtitle text is coloured in a grey colour.
 
 On the blog area, the featured posts only show the title. When the user clicks the featured post, the subtitle will be shown below the normal title in the post view.
 
